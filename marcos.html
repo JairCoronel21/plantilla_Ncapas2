@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER EN CSS</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/marcos.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="hero">
+        <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i></span>
+        <nav class="main-nav">
+            <ul class="menu" id="menu">
+                <li class="menu__item container-submenu">
+                    <a href="index.html" class="menu__link submenu-btn">New Minds<i></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a>
+                        </li>
+                        <li class="menu__item"><a href="informe.html" class="menu__link">Informe</a>
+                        </li>
+                        <li class="menu__item"><a href="galeria2.html" class="menu__link">Imagenes</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item container-submenu">
+                    <a href="marcos.html" class="menu__link submenu-btn">Marcos<i></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item"><a href="marcos.html" class="menu__link">Introducción</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item container-submenu">
+                    <a href="fernando.html" class="menu__link submenu-btn">Fernando<i></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item">
+                            <a href="fernando.html" class="menu__link">Capa de Presenatción y Negocio</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item container-submenu">
+                    <a href="diego.html" class="menu__link submenu-btn">Diego<i></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item"><a href="diego.html" class="menu__link">Capa de Datos</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item container-submenu">
+                    <a href="coronel.html" class="menu__link submenu-btn">Jair<i></i></a>
+                    <ul class="submenu">
+                        <li class="menu__item"><a href="coronel.html" class="menu__link">Conclusiones</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">PROGRAMACION CON PATRON N CAPAS</h1>
+            <p class="hero__paragraph">La programación por capas es una arquitectura cliente-servidor en el que el objetivo primordial es la separación de la lógica de negocios de la lógica de diseño.</p>
+            <!--a href="#" class="cta">Comienza ahora</!--a>!-->
+        </section>
+    </header>
+
+    <main>
+        <section class="container about">
+            <h2 class="subtitle">¿Que es la arquitectura por capas?</h2>
+            <p class="about__paragraph">capas es un patrón de arquitectura software usada en la gran mayoría de sistemas. Se centra en una distribución jerárquica de las roles y responsabilidades proporcionando una separación efectiva de las preocupaciones (cada cual se encarga
+                de lo que le cooresponde).
+
+            </p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="" class="about__icon">
+                    <h3 class="about__title">Programación en N Capas</h3>
+                    <p class="about__paragrah">El estilo arquitectural en n capas se basa en una distribución jerárquica de los roles y las responsabilidades para proporcionar una división efectiva de los problemas a resolver.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="" class="about__icon">
+                    <h3 class="about__title">Tipo de Diseño </h3>
+                    <p class="about__paragrah">En el diseño de sistemas informáticos actual se suelen usar las arquitecturas multinivel o programación por capas. El más utilizado actualmente es el diseño en tres niveles (o en tres capas).</p>
+                </article>
+
+
+            </div>
+        </section>
+
+        <section class="knowledge">
+            <div class="knowledge__container container">
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Diseño de 3 Capas</h2>
+                    <p class="knowledge__paragraph">* Capa de presentación.</br>* Capa de negocio.</br>* Capa de datos.</br>
+
+                    </p>
+
+                </div>
+
+                <figure class="knowledge__picture">
+                    <img src="./images/capas.png" class="knowledge__img">
+                </figure>
+            </div>
+        </section>
+
+
+
+
+        <script src="./js/slider.js"></script>
+        <script src="./js/questions.js"></script>
+        <script src="./js/menu.js"></script>
+        <script src="./js/menu2.js"></script>
+</body>
+
+</html>
